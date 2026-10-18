@@ -1,0 +1,419 @@
+#workskin .tumblr {
+   max-width: 34em;
+   border-color: rgba(0, 0, 0, 0.13);
+   border-width: 0.1em;
+   border-style: solid;
+   border-radius: 1.5em;
+   background-color: white;
+   margin: auto;
+   font-family: "Favorit", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+   color: rgba(0, 0, 0, 1);
+   font-size: 0.9em;
+}
+
+#workskin .tumblr .reblog {
+   border-bottom-style: solid;
+   border-color: rgba(0, 0, 0, 0.13);
+   width: 100%;
+   border-width: 0.1em;
+   position: relative;
+}
+
+#workskin .tumblr .author {
+    position: relative;
+}
+
+#workskin .tumblr .username {
+   color: #000000;
+   font-weight: bold;
+   font-size: 1em;
+   margin-left: 0.54em;
+   vertical-align: top;
+}
+
+#workskin .tumblr .user {
+   padding: 0em 0.55em;
+}
+
+#workskin .tumblr .reblogIcon {
+   height: 1em;
+   position: absolute;
+   margin: 1em 0em 0em -0.7em;
+   border-radius: 100%;
+}
+
+#workskin .tumblr .userIcon {
+   height: 1.9em;
+   width: 1.9em;
+   border-radius: 100%;
+}
+
+#workskin .tumblr .timestamp {
+   color: rgba(102, 117, 134, 1);
+   font-size: 0.7em;
+   position: relative;
+   margin-left: 4.25em;
+   margin-top: -2.5em;
+}
+
+#workskin .tumblr .timestamp .user {
+   font-weight: bold;
+   margin-left: -1em;
+   margin-right: 0.5em;
+}
+
+#workskin .tumblr .ask {
+   margin: 0%;
+   padding: 0%
+}
+
+#workskin .tumblr .post,
+#workskin .tumblr .askPost {
+   margin: 1%;
+}
+
+#workskin .tumblr .askPost {
+   margin: 1%;
+   padding: 2%
+}
+
+#workskin .tumblr .askPost .post {
+   margin: 0%;
+}
+
+#workskin .question {
+	position: relative;
+	background: #f2f4f5;
+	border-radius: 0.1em;
+  width: 80%;
+  padding: 2%;
+  margin: 0%;
+}
+
+#workskin .question:after	{
+  content: '';
+	position: absolute;
+	right: 0;
+	top: 15%;
+	width: 0;
+	height: 0;
+	border: 0.6em solid transparent;
+	border-left-color: #f2f4f5;
+	border-right: 0;
+	margin-top: -0.2em;
+	margin-right: -0.6em;
+}
+
+#workskin .question .user,
+#workskin .question .user .username {
+ color: rgba(76, 94, 114, 1);
+ font-size: 0.95em;
+ vertical-align: bottom;
+}
+
+#workskin .question .user .username {
+    padding-right: 0%;
+    margin-left: 0%;
+}
+
+#workskin .question .questionText {
+    display: inline-block;
+    padding: 7% 2% 2% 2%;
+    font-size: 1em;
+}
+
+#workskin .tumblr .askPost .askUser {
+    float: right;
+    vertical-align: top;
+    margin-top: 0.4em;
+    border-radius: 0.5em;
+    margin-right: 2.2em;
+}
+
+#workskin .tumblr .askPost .askUser .userIcon {
+    border-radius: 0.2em;
+}
+
+#workskin .tumblr .post img {
+   width: 98%;
+   border-style: solid;
+   border-radius: 0.7em;
+   border-color: rgba(0, 0, 0, 0.13);
+   border-width: 0.07em;
+}
+
+#workskin .tumblr .post .imgRow img {
+    width: 49%;
+
+}
+
+#workskin .tumblr .postText,
+#workskin .tumblr .tags {
+   margin: 2%
+}
+
+#workskin .tumblr .notes {
+ display: flex;
+ justify-content: space-between;
+ width: 95%;
+ margin: 0.8em;
+ position: relative;
+}
+
+#workskin .tumblr .notes>p {
+    margin: 0%;
+    padding: 0%
+}
+
+#workskin .tumblr .noteIcon {
+ height: 1.2em;
+ width: auto;
+ vertical-align: middle;
+ position: relative;
+}
+
+#workskin .tumblr .noteCount {
+ font-size: 1em;
+ font-weight: bold;
+ color: #8f8f8f;
+ position: relative;
+ margin-left: 0.8em;
+ padding-bottom: 0.8em;
+ display: inline;
+ vertical-align: middle;
+
+}
+
+#workskin .tumblr .liked {
+    color: rgba(255, 73, 48, 1);
+}
+
+#workskin .tumblr .tags .tag {
+    font-size: 1em;
+    margin-right: 0.8em;
+    overflow: auto;
+    color: rgba(102, 117, 134, 1);
+    font-weight: 400;
+    display: inline;
+}
+
+#workskin .tumblr .tags .tag:before {
+    content: "#";
+}
+
+#workskin .tumblr .commentsHeaders {
+   border-top-style: solid;
+   border-color: rgba(0, 0, 0, 0.13);
+   width: 100%;
+   border-width: 0.05em;
+   display: block;
+   padding-top: 0.8em;
+   position: relative;
+}
+
+#workskin .tumblr .commentsHeaders .commentsHeader {
+ width: 90%;
+ position: relative;
+ margin-left: 0.4em;
+ margin-bottom: 2.2em;
+ padding-left: 0.4em;
+}
+
+#workskin .tumblr .commentsHeaders .commentsHeader .noteCount {
+    color: #000000;
+    margin-left: -0.2em;
+}
+
+#workskin .tumblr .commentsHeaders .commentsHeader .note,
+#workskin .tumblr .commentsHeaders .commentsHeader .commentNote,
+#workskin .tumblr .commentsHeaders .commentsHeader .close {
+    display: inline;
+    position: relative;
+    margin-right: 0.8em;
+    padding: 0.8em 1.2em;
+    font-size: 1em;
+    background-color:#f2f4f5;
+    color: rgba(102, 117, 134, 1);
+    border-radius: 2em;
+    font-weight: bold;
+}
+
+#workskin .tumblr .commentsHeaders .commentsHeader .close img {
+    border-radius: 3em;
+    height: 1em;
+    vertical-align: middle;
+    padding-bottom: 0.2em;
+}
+
+#workskin .tumblr .commentsHeaders .commentsHeader .commentNote {
+    background-color: rgba(0, 184, 255, 1);
+    color: white;
+}
+
+#workskin .tumblr .commentsHeaders .commentSort {
+    color: rgba(0, 0, 0, 1);
+    font-size: 1em;
+    width: 100%;
+    position: relative;
+    margin-left: 0em;
+}
+
+#workskin .tumblr .commentsHeaders .commentSort span {
+    margin-left: 0.8em;
+    padding-left: 0.4em;
+}
+
+#workskin .tumblr .commentsHeaders .commentSort img {
+    height: 1.4em;
+    vertical-align: middle;
+}
+
+#workskin .tumblr .commentsHeaders .followPost img {
+    height: 1.4em;
+    display: inline;
+    padding-left: 20em;
+}
+
+#workskin .tumblr .commentsHeaders .reply {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 0.04em;
+    border-color: rgba(0, 0, 0, 0.13);
+    padding: 1.4em 0.8em;
+    margin-bottom: 0%;
+}
+
+#workskin .tumblr .commentsHeaders .reply .replyForm {
+  position: relative;
+}
+
+#workskin .tumblr .commentsHeaders .reply .replyForm .userIcon {
+  vertical-align: middle;
+}
+
+#workskin .tumblr .commentsHeaders .reply .replyForm .replyPlaceholder {
+  font-size: 0.9em;
+  vertical-align: middle;
+  background-color: #f2f4f5;
+  color: rgba(102, 117, 134, 1);
+  border-radius: 0.4em;
+  padding-top: 0.8em;
+  padding-bottom: 1.2em;
+  padding-left: 0.8em;
+  margin-left: 0.4em;
+}
+
+#workskin .tumblr .commentsHeaders .reply .replyForm .replyPlaceholder .sendReply {
+  height: 1.5em;
+  padding-left: 46%;
+  padding-right: 1.1em;
+  vertical-align: middle;
+}
+
+
+#workskin .tumblr .comments {
+   display: block;
+   position: relative;
+   height: 18em;
+   overflow: scroll;
+}
+
+#workskin .tumblr .comments .comment {
+    display: block;
+    position: relative;
+}
+
+#workskin .tumblr .comments .commentReply {
+    display: block;
+    position: relative;
+    margin-left: 2.5em;
+}
+
+#workskin .tumblr .comments .user {
+    display: inline-block;
+
+}
+
+#workskin .tumblr .comments .user .userIcon{
+    vertical-align: middle;
+
+}
+
+#workskin .tumblr .comments .username {
+    font-size: 0.85em;
+    vertical-align: middle;
+    margin-left: 0.8em;
+}
+
+#workskin .tumblr .comments .timestamp {
+    display: inline;
+    margin-left: 0.4em;
+}
+
+#workskin .tumblr .comments .commentText {
+    display: block;
+    position: relative;
+    margin: 0.4em 0.4em 0.4em 3em;
+    font-size: 15px;
+}
+#workskin .tumblr .comments .commentText .mention{
+    margin-right: 0.4em;
+    font-size: 1em;
+    color:  rgba(0, 184, 255, 1);
+}
+
+#workskin .tumblr .comments .commentIcons {
+ margin-left: 3.4em;
+ padding-top: 0.8em;
+}
+
+#workskin .tumblr .comments .commentIcons .noteIcon {
+ height: 1em;
+ width: auto;
+ vertical-align: middle;
+ position: relative;
+}
+
+#workskin .tumblr .comments .commentIcons .noteCount {
+ font-size: 0.8em;
+ font-weight: bold;
+ color: #8f8f8f;
+ position: relative;
+ margin-left: 0.8em;
+ padding-bottom: 0.8em;
+ display: inline;
+ vertical-align: middle;
+ padding-right: 1em;
+}
+
+#workskin .tumblr .comments .commentIcons .liked {
+    color: rgba(255, 73, 48, 1);
+}
+
+#workskin .tumblr .comments .hideReplies {
+    color: rgba(0, 184, 255, 1);
+    font-size: 0.9em;
+    display: block;
+    margin-left: 3.7em;
+    font-weight: 500;
+    margin-top: 0.8em;
+}
+
+#workskin .tumblr .comments .op {
+    display: inline;
+    position: relative;
+    margin-left: 0.4em;
+    background-color: rgba(138, 92, 255, .15);
+    font-size: 0.8em;
+    color: rgba(124, 92, 255, 1);
+    vertical-align: middle;
+    padding: 0.15em;
+    border-radius: 0.4em;
+    font-weight: 500;
+}
+
+#workskin .tumblr .comments .opIcon {
+    height: 0.9em;
+    vertical-align: middle;
+    padding-bottom: 0.3em;
+}
